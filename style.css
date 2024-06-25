@@ -1,0 +1,164 @@
+/* Initially preventing default behaviour */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* To center all the section  */
+.center {
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+   
+}
+
+/* Buisness card  */
+
+.business {
+  background-color: #1de592;
+  padding: 130px 50px;
+  font-family: sans-serif;
+}
+.business h1 {
+  font-size: 48px;
+}
+.business p {
+  font-weight: 550;
+  font-size: 15px;
+  padding: 30px 0;
+}
+.business button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 28px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Profile card  */
+.profile {
+  border: 2px solid #dadce0;
+}
+.profile h1 {
+  font-family: monospace;
+  font-size: 33px;
+  padding: 30px 30px 0 30px;
+}
+.profile p {
+  font-size: 22px;
+  padding-top: 12px;
+  color: #5f6367;
+  padding: 10px 30px 0 30px;
+}
+.profile .image img {
+  width: 110px;
+  border-radius: 50%;
+  margin: 20px 50px;
+  padding: 30px 10px 30px 10px;
+}
+.profile .btn {
+  padding: 20px 30px;
+  border-top: 2px solid #dadce0;
+}
+
+.profile .btn button {
+  font-size: 18px;
+  font-weight: 550;
+  border: none;
+  background-color: #fff;
+  color: #1e74e8;
+  cursor: pointer;
+}
+
+/* Google photos section */
+
+.google {
+  border: 2px solid #dadce0;
+}
+.google .image img {
+  width: 100%;
+  border-radius: 10px;
+}
+.google .content {
+  padding: 20px 25px;
+}
+
+.google #subscribe {
+  text-transform: uppercase;
+}
+.google header {
+  font: 2.2em sans-serif;
+}
+.google p {
+  color: #5f6367;
+  font: 1.5em sans-serif;
+  letter-spacing: 0.1rem;
+  padding: 15px 0;
+  margin-bottom: 10px;
+}
+.google button {
+  color: #1e74e8;
+  background-color: #fff;
+  font: 1.7em sans-serif;
+  padding: 10px 25px;
+  margin: 20px 0;
+  border: 2px solid #dadce0;
+  border-radius: 10px;
+}
+
+hr {
+  max-width: 650px;
+  margin: 20px auto;
+}
+/* Form and footer */
+
+.form_section {
+  margin: 20px auto;
+  max-width: 300px;
+  text-align: center;
+}
+.form_section h1 {
+  font: 3.5em cursive;
+  margin-top: 45px;
+}
+.form_section h2 {
+  padding: 15px 0;
+
+  font: 18px sans-serif;
+}
+.form input {
+  padding: 10px 25px;
+  margin: 5px 0;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.form button {
+  color: #fff;
+  background-color: #000;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  font: 0.9em sans-serif;
+  margin: 15px 0;
+}
+.forget {
+  margin: 23px 0;
+}
+.forget span {
+  color: #857575;
+}
+.forget a {
+  color: #3d3939;
+}
+
+footer p {
+  font-size: 13px;
+  letter-spacing: 0.01rem;
+  color: rgb(161, 152, 152);
+}
+footer p a {
+  color: rgb(161, 152, 152);
+}
