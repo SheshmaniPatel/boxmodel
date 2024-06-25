@@ -106,6 +106,7 @@
   margin: 20px 0;
   border: 2px solid #dadce0;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 hr {
@@ -143,6 +144,7 @@ hr {
   border-radius: 20px;
   font: 0.9em sans-serif;
   margin: 15px 0;
+  cursor: pointer;
 }
 .forget {
   margin: 23px 0;
